@@ -4,9 +4,8 @@
 
 # By Carli Beisel
 # Adapted from Bridget Bittmann (2023, Github: bridgetmarie24)
-# Date adapted:July 14, 2024
-# Adapted from Bridget Bittmann (2023; github: bridgetmarie24)
-
+# Date adapted: July 14, 2024
+#PURPOSE: Retrieve USGS streamflow data for Mason Creek.
 
 install.packages('dataRetrieval')
 library(dataRetrieval)
@@ -17,7 +16,7 @@ info <- readNWISsite(siteNumber)
 parameterCd <- "00060"
 
 # Import raw daily data
-rawdailydata <- readNWISdv(siteNumber, parameterCd, '2024-07-08', '2024-07-14')
+rawdailydata <- readNWISdv(siteNumber, parameterCd, '2024-03-31', '2024-08-20')
 rawdailydata$DiversionName <- 'MASON CREEK AT CALDWELL ID'
 
 # Export csv file
