@@ -16,7 +16,7 @@ info <- readNWISsite(siteNumber)
 parameterCd <- "00060"
 
 # Import raw daily data
-rawdailydata <- readNWISdv(siteNumber, parameterCd, '2024-01-01', '2024-10-25')
+rawdailydata <- readNWISdv(siteNumber, parameterCd, '2024-01-01', '2024-11-17')
 rawdailydata$DiversionName <- 'MASON CREEK AT CALDWELL ID'
 
 # Export csv file
