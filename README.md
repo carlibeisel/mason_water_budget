@@ -1,10 +1,7 @@
 Water Budget of Mason Creek Drainage
 
-**Purpose:** A modified water budget was developed for an agricultural drainage in the Treasure Valley to evaluate how drain gains and losses differ between irrigated agricultural and developed land uses. The goals of this research were to:
+**Purpose:** A modified water budget was developed for an agricultural drainage in the Treasure Valley to evaluate how drain gains and losses differ between irrigated agricultural and developed land uses during the 2024 irrigation season. Measured surface water gains to modeled estimates of groundwater inflow (Hundt and Bartolino, 2023) and irrigation runoff (The Freshwater Trust, 2025). 
 
-1 - Examine the influence of urban and agricultural land cover on monthly drainflow gains and losses during the 2024 irrigation season
-
-2 - Compare measured surface water gains to modeled estimates of groundwater inflow (Hundt and Bartolino, 2023) and irrigation runoff (The Freshwater Trust, 2025) 
 
 
 **Steps to running drain water budget:**
